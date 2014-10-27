@@ -69,7 +69,6 @@ module DICOM
         require 'mini_magick'
         DcmMiniMagick
       when :rmagick
-        require 'rmagick'
         require "RMagick"
         DcmRMagick
       else
