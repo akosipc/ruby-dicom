@@ -70,6 +70,7 @@ module DICOM
         DcmMiniMagick
       when :rmagick
         require 'rmagick'
+        require "RMagick"
         DcmRMagick
       else
         raise "Uknown image processor #{DICOM.image_processor}"
